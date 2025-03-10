@@ -1,0 +1,165 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/main.css);
+:root{
+    --off-white: hsl(36, 100%, 99%);
+    --gray-blue: hsl(233, 8%, 79%);
+    --dark-gray-blue: hsl(236, 13%, 42%);
+    --very-dark-blue: hsl(240, 100%, 5%);
+/*Primary*/
+    --soft-orange: hsl(35, 77%, 62%);
+    --soft-red: hsl(5, 85%, 63%);
+}
+
+body{
+    background-color: var(--off-white);
+    font-family: 'Inter', sans-serif;
+    color: var(--dark-gray-blue);
+    font-size: 0.9em;
+}
+
+main{
+    margin: 5% 10%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+nav{
+    margin-left:auto;
+    width:35%;
+}
+
+nav ul{
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+article{
+    margin: 4% 0;
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    flex:0.9;
+    margin-left: 2%;
+    background-color: var(--very-dark-blue);
+    color: var(--gray-blue);
+    box-sizing: border-box;
+    padding: 2%;
+}
+
+section{
+    flex:3;
+}
+
+section img{
+    width: 100%;   
+}
+
+.encabezado{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.encabezado h1{
+    font-size:4em;
+    font-weight: 800;
+    margin: 0;
+    color: var(--very-dark-blue);
+    flex: 1;
+    line-height: 1em;
+}
+
+.encabezado-desc{
+    margin-left:15%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.encabezado-desc p{
+    letter-spacing: 0.07em;
+    line-height: 1.5em;
+}
+
+.boton{
+    text-transform: uppercase;
+    color:var(--off-white);
+    background-color: var(--soft-red);
+    width:40%;
+    padding:3% 5%;
+    text-align: center;
+    letter-spacing: 0.3em;
+}
+
+aside h1{
+    font-size:3em;
+    font-weight: 700;
+    color: var(--soft-orange);
+    margin: 5% 0 10% 0;
+}
+
+aside h2{
+    font-size:1.3em;
+    color:var(--off-white);
+}
+
+aside p{
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+}
+
+hr{
+    height: 0.5px;
+    border-width: 0;
+    background-color: var(--dark-gray-blue);
+    margin: 13% 0;
+}
+
+.more-options{
+    width:100%;
+    display: flex;
+    gap: 10%;
+    /*justify-content: space-between;*/
+}
+
+.more{
+    flex: 1;
+    display:flex;
+}
+
+.more img{
+    width:30%;
+    margin-right:5%;
+}
+.more-text{
+    width:70%;
+}
+
+.more-text h1{
+    color: var(--gray-blue);
+    margin:0 0 4% 0;
+    font-size: 2em;
+}
+
+.more-text h2{
+    color: var(--very-dark-blue);
+    font-size: 1.2em;
+    font-weight: 800;
+    margin: 2% 0;
+}
+
+.more-text p{
+    line-height: 1.7;
+    margin: 0;
+}
+.web-logo{
+    position: absolute;
+}
