@@ -1,0 +1,19 @@
+.nav{
+  margin-left:auto;
+  width:35%;
+  align-items: flex-end;
+ 
+}
+
+.nav__web-logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.nav__links {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  
+}

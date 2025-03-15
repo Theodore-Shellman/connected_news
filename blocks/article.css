@@ -1,0 +1,5 @@
+.article{
+    margin: 4% 0;
+    display: flex;
+    flex-direction: row;
+}
