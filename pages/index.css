@@ -3,7 +3,9 @@
 @import url(../blocks/nav.css);
 @import url(../blocks/body.css);
 @import url(../blocks/header.css);
+@import url(../blocks/main.css);
 @import url(../blocks/article.css);
+
 
 
 
@@ -30,13 +32,7 @@ aside {
     padding: 2%;
 }
 
-section{
-    flex:3;
-}
 
-section img{
-    width: 100%;   
-}
 
 .encabezado{
     margin-top: 2%;
