@@ -27,51 +27,6 @@
     --soft-red: hsl(5, 85%, 63%);
 }
 
-
-
-
-
-
-
-
-
-.more-options{
-    width:100%;
-    display: flex;
-    gap: 10%;
-    /*justify-content: space-between;*/
-}
-
-.more{
-    flex: 1;
-    display:flex;
-}
-
-.more img{
-    width:30%;
-    margin-right:5%;
-}
-.more-text{
-    width:70%;
-}
-
-.more-text h1{
-    color: var(--gray-blue);
-    margin:0 0 4% 0;
-    font-size: 2em;
-}
-
-.more-text h2{
-    color: var(--very-dark-blue);
-    font-size: 1.2em;
-    font-weight: 800;
-    margin: 2% 0;
-}
-
-.more-text p{
-    line-height: 1.7;
-    margin: 0;
-}
 .web-logo{
     position: absolute;
     top: 20px;

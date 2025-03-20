@@ -1,0 +1,34 @@
+.more{
+    flex: 1;
+    display:flex;
+}
+
+.more__options{
+    width:100%;
+    display: flex;
+    gap: 10%;
+    /*justify-content: space-between;*/
+}
+.more__img{
+    width:30%;
+    margin-right:5%;
+}
+.more__text-column {
+    width:70%;
+}
+.more__number {
+    color: var(--gray-blue);
+    margin:0 0 4% 0;
+    font-size: 2em;
+}
+.more__title {
+    color: var(--very-dark-blue);
+    font-size: 1.2em;
+    font-weight: 800;
+    margin: 2% 0;
+}
+
+.more__text{
+    line-height: 1.7;
+    margin: 0;
+}
