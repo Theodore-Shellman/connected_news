@@ -1,20 +1,22 @@
 .more{
-    flex: 1;
+    min-width: 400px;
     display:flex;
+    overflow: hidden;
+    margin-right: 10px;
 }
 
 .more__options{
     width:100%;
     display: flex;
-    gap: 10%;
-    /*justify-content: space-between;*/
+    /* gap: 10%; */
+    /*justify-content: space-between; */
 }
 .more__img{
-    width:30%;
-    margin-right:5%;
+    width:200px;
+    margin-right:10px;
 }
 .more__text-column {
-    width:70%;
+    width:190px;
 }
 .more__number {
     color: var(--gray-blue);

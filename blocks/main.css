@@ -1,6 +1,8 @@
 .main{
     flex: 3;
+    overflow: hidden;
+    margin-top: 100px;
 }
 .main__logo{
-    width: 100%;   
+    max-width: 832px;
 }

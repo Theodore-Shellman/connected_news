@@ -1,6 +1,7 @@
-body{
-    background-color: var(--off-white);
-    font-family: 'Inter', sans-serif;
-    color: var(--dark-gray-blue);
-    font-size: 0.9em;
+body {
+  background-color: var(--off-white);
+  font-family: "Inter", sans-serif;
+  color: var(--dark-gray-blue);
+  font-size: 0.9em;
+  box-sizing: border-box;
 }

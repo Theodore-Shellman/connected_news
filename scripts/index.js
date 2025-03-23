@@ -1,23 +1,25 @@
-const initalCards = [
+const initialCards = [
   {
     name: "Val Thorens",
-    link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/1-photo-by-moritz-feldmann-from-pexels.jpg",
-    describtion: "What happens when old PCs are given modern upgrades?",
+    number: "01",
+    link: "./assets/images/image-retro-pcs.jpg",
+    description: "What happens when old PCs are given modern upgrades?",
     title: "Reviving Retro PCs",
   },
   {
     name: "Val Thorens",
-    link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/1-photo-by-moritz-feldmann-from-pexels.jpg",
-    describtion: "What happens when old PCs are given modern upgrades?",
-    title: "Reviving Retro PCs",
+    number: "02",
+    link: "./assets/images/image-top-laptops.jpg",
+    description: "Our best picks for various needs and budgets.",
+    title: "Top 10 Laptops of 2022",
   },
   {
     name: "Val Thorens",
-    link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/1-photo-by-moritz-feldmann-from-pexels.jpg",
-    describtion: "What happens when old PCs are given modern upgrades?",
-    title: "Reviving Retro PCs",
+    number: "03",
+    link: "./assets/images/image-gaming-growth.jpg",
+    description: "How the pandemic has sparked fresh opportunities.",
+    title: "The Growth of Gaming",
   },
-  
 ];
 
 // const profileEditBtn = document.querySelector(".profile__edit-btn");
@@ -48,7 +50,7 @@ const initalCards = [
 // const previewModalClose = previewModal.querySelector(".modal__close-btn");
 
 const moreTemplate = document.querySelector("#more-template");
-const moresList = document.querySelector(".more");
+const moreList = document.querySelector(".more");
 
 // const modals = document.querySelectorAll(".modal");
 
@@ -60,12 +62,14 @@ function getMoreElement(data) {
   const moreDescriptionEl = moreElement.querySelector(".more__text");
   const moreTitleEl = moreElement.querySelector(".more__title");
   const moreImageEl = moreElement.querySelector(".more__img");
+  const moreNumberEl = moreElement.querySelector(".more__number");
   // <!-- todo add likeBtn and trashBtn and style them -->
 
   // const LikeBtn = moreElement.querySelector(".card__like-btn");
   // const trashButton = moreElement.querySelector(".card__trash-button");
 
-  moreDescriptionEl.textContent = data.describtion;
+  moreDescriptionEl.textContent = data.description;
+  moreNumberEl.textContent = data.number;
   moreImageEl.src = data.link;
   moreImageEl.alt = data.name;
   moreTitleEl.textContent = data.title;
@@ -84,7 +88,7 @@ function getMoreElement(data) {
   //   previewModalCaptionEl.textContent = data.name;
   //   previewModalImageEl.alt = data.name;
   // });
-console.log(moreElement);
+  console.log(moreElement);
   return moreElement;
 }
 
@@ -145,9 +149,9 @@ console.log(moreElement);
 
 // editFormElement.addEventListener("submit", handleEditFormSubmit);
 // cardFormElement.addEventListener("submit", handleCardFormSubmit);
-initalCards.forEach((item) => {
+initialCards.forEach((item) => {
   const moreElement = getMoreElement(item);
-  moresList.prepend(moreElement);
+  moreList.append(moreElement);
 });
 
 // modals.forEach((modal) => {
