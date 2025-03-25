@@ -36,3 +36,16 @@
     top: 20px;
     left: 20px;
 }
+::-webkit-scrollbar {
+    height: 2em;
+  }
+  ::-webkit-scrollbar-track {
+    background: hsl(120 75% 50%/1);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: hsl(120 100% 20%/1);
+    border-radius: 100vw;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(120 100% 5%/1);
+  }

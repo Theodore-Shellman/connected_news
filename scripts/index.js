@@ -20,6 +20,48 @@ const initialCards = [
     description: "How the pandemic has sparked fresh opportunities.",
     title: "The Growth of Gaming",
   },
+  {
+    name: "Val Thorens",
+    number: "01",
+    link: "./assets/images/image-retro-pcs.jpg",
+    description: "What happens when old PCs are given modern upgrades?",
+    title: "Reviving Retro PCs",
+  },
+  {
+    name: "Val Thorens",
+    number: "02",
+    link: "./assets/images/image-top-laptops.jpg",
+    description: "Our best picks for various needs and budgets.",
+    title: "Top 10 Laptops of 2022",
+  },
+  {
+    name: "Val Thorens",
+    number: "03",
+    link: "./assets/images/image-gaming-growth.jpg",
+    description: "How the pandemic has sparked fresh opportunities.",
+    title: "The Growth of Gaming",
+  },
+  {
+    name: "Val Thorens",
+    number: "01",
+    link: "./assets/images/image-retro-pcs.jpg",
+    description: "What happens when old PCs are given modern upgrades?",
+    title: "Reviving Retro PCs",
+  },
+  {
+    name: "Val Thorens",
+    number: "02",
+    link: "./assets/images/image-top-laptops.jpg",
+    description: "Our best picks for various needs and budgets.",
+    title: "Top 10 Laptops of 2022",
+  },
+  {
+    name: "Val Thorens",
+    number: "03",
+    link: "./assets/images/image-gaming-growth.jpg",
+    description: "How the pandemic has sparked fresh opportunities.",
+    title: "The Growth of Gaming",
+  },
 ];
 
 
